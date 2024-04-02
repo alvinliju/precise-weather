@@ -61,7 +61,7 @@ class Weather extends React.Component{
                         <div className="field">
                             <label className="label"></label>
                             <div className="control">
-                                <input className="input" type="text" placeholder="Type UK postcode here" onChange={this.handleInputChange} required />
+                                <input className="input" type="text" placeholder="Enter postcode" onChange={this.handleInputChange} required />
                             </div>
                         </div>
                         <div className="field">
